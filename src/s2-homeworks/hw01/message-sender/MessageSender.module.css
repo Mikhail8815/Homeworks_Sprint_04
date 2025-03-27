@@ -1,0 +1,35 @@
+.sendForm {
+    margin-top: 30px;
+    margin-bottom: 30px;
+display: flex;
+    gap: 20px;
+}
+
+.textarea {
+    width: 90%;
+    height: 150px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+}
+
+.button {
+    padding: 0.5em 1.5em; /* Поля по вертикали и горизонтали */
+    font-size: 0.9em; /* Размер текста */
+    color: #fff; /* Белый цвет текста */
+    background-color: #67ada9; /* Цвет фона кнопки */
+    border-width: 0; /* Убираем рамку */
+    border-bottom: 4px solid #547b80; /* Линия снизу */
+    border-radius: 0.4em; /* Радиус скругления */
+}
+
+.button:hover {
+
+}
+.button:active {
+
+}
