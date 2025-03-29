@@ -4,6 +4,11 @@ const initState = {
 
 export const loadingReducer = (state = initState, action: any): any => { // fix any
     switch (action.type) {
+        case 'CHANGE_LOADING':
+            return {
+                isLoading: action.isLoading,
+            }
+
         // пишет студент  // need to fix
 
         default:
