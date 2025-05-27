@@ -1,0 +1,47 @@
+.item {
+}
+
+.item:last-of-type {
+}
+
+.users {
+border: none;
+}
+
+.buttonsContainer {
+    display: flex;
+    gap: 12px;
+    justify-content: right;
+    margin: 30px 20px;
+}
+
+.container {
+    max-width: 610px;
+}
+
+.thead {
+    background-color: #e5e5e5;
+    padding: 10px 10px;
+    padding-left: 15px;
+}
+
+.nameCol {
+    width: 300px;
+    padding: 10px 10px;
+    padding-left: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    border: none;
+}
+
+.ageCol {
+    width: 300px;
+    padding: 10px 10px;
+    padding-left: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+}

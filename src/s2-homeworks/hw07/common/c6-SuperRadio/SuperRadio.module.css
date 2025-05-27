@@ -1,0 +1,24 @@
+.radio {
+    background-color: black;
+}
+
+.radio::before {
+    border-color: red;
+}
+
+
+.radio:checked::before {
+    background-color: black;
+}
+
+.label {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
